@@ -16,29 +16,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            color: #dddddd;
+        }
+    </style>
 </head>
 
 <body>
     <div class="header" id="home">
         <nav>
-            <h2 class="logonih">Z<u>a</u>ky'<i><u>s</u></i></h2>
+            <img class="logonih" src="./gambar/infiniti.png" style="width: 7em;">
             <ul>
                 <li>
                     <a href="#home">Home</a></li>
                 <li>
                     <a href="#tentang">Tentang</a></li>
                 <li>
-                    <a href="#layanan">Layanan</a> </li>
+                    <a href="#layanan">MBO</a> </li>
                 <li>
-                    <a href="#portofolio">Portofolio</a></li>
+                    <a href="#portofolio">Dokumentasi</a></li>
             </ul>
             <a href="https://www.linkedin.com/in/ahmad-zaky-yamani-5187621a6/" class="btn">LinkedIn</a>
         </nav>
 
         <div class="content">
             <h4>Hello, my name is</h4>
-            <h1>Ahmad <span><u>Zaky</u></span></h1>
-            <h3>I'am a Web Developer.</h3>
+            <h1>Ahmad <span>Zaky Yamani</span></h1>
+            <h3>I'am a Software Engineer at <u>SID</u></h3>
             <div class="newslatter">
                 <form>
                     <input type="email" name="email" id="mail" placeholder="Enter Email Kamu">
@@ -54,13 +63,36 @@
             <img src="./gambar/zaky.jpg">
             <div class="tentang-text">
                 <h2>Tentang Saya</h2>
-                <h5>Developer <span>& Graphic Designer</span></h5>
-                <p>Lorem Ipsum is color jamet dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type
-                    specimen book.
-                </p>
-                <button type="button">Kepo ya !</button>
+                <h5>Software <span>Engineer</span></h5>
+                <table>
+                    <tr>
+                        <td style="width: 30%;">Nama</td>
+                        <td style="width: 5%;">:</td>
+                        <td style="width: 65%;">Ahmad Zaky Yamani</td>
+                    </tr>
+                    <tr>
+                        <td>TTL</td>
+                        <td>:</td>
+                        <td>Bogor, 03 Juli 2022</td>
+                    </tr>
+                    <tr>
+                        <td>Pendidikan terakhir</td>
+                        <td>:</td>
+                        <td>S1 Sistem Informasi – Nusa Mandiri Jakarta (2015 - 2019)</td>
+                    </tr>
+                    <tr>
+                        <td>Training yang pernah diikuti:</td>
+                        <td>:</td>
+                        <td> Codepolitan (react.js, node.js, JQuery, Javascript)
+                            HIK Robot intermediate
+                            ISO Awareness 9001-14001-45000 
+                            IT Risk Assesment (Pak Edy)
+                            Training PSDM (Problem Solving Decision Making) 
+                            Berpikir Kreatif dan Inovatif.</td>
+                    </tr>
+                </table>
+                <br>
+                <button type="button">Join 27 Juni 2022 </button>
             </div>
         </div>
     </section>
@@ -68,54 +100,19 @@
     <!-- Layanan -->
     <div class="service" id="layanan">
         <div class="title">
-            <h2>Layanan</h2>
+            <h2>SHARELOQ</h2>
         </div>
 
         <div class="box">
-            <div class="card">
-                <i class="fas fa-bars"></i>
-                <h5>Web Development</h5>
-                <div class="pra">
-                    <p>Lorem Ipsum color jamet dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's.</p>
-                    <p style="text-align: center;">
-                        <a href="#" class="button">Selengkapnya</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <i class="fas fa-bars"></i>
-                <h5>Web Development</h5>
-                <div class="pra">
-                    <p>Lorem Ipsum color jamet dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's.</p>
-                    <p style="text-align: center;">
-                        <a href="#" class="button">Selengkapnya</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <i class="fas fa-bars"></i>
-                <h5>Web Development</h5>
-                <div class="pra">
-                    <p>Lorem Ipsum color jamet dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's.</p>
-                    <p style="text-align: center;">
-                        <a href="#" class="button">Selengkapnya</a>
-                    </p>
-                </div>
-            </div>
-
+            <img class="portfolio1" src="./gambar/mbo.png" style="width: 70%;" alt="portfolio" />
         </div>
     </div>
 
     <!-- Portfolio -->
     <div class="portfolio" id="portofolio">
         <div class="portfolio__container">
-            <h1>Portfolio</h1>
-            <div class="portfolio__main">
+            <h2>Tampilan UI</h2>
+            <!-- <div class="portfolio__main">
                 <div class="portfolio__left">
                     <img class="portfolio1" src="./gambar/portal KM.jpg" alt="portfolio" />
 
@@ -129,19 +126,55 @@
                     <button type="button">Kepo ya !</button>
 
                     <!-- <a href="#">See more ></a> -->
-                </div>
+                <!-- </div>
+            </div> -->
+            <div class="portfolio__projects">
+                <img class="portfolio1" src="./gambar/gams.jpg" alt="portfolio">
+                <img class="portfolio1" src="./gambar/shell.jpg" alt="portfolio" />
             </div>
             <div class="portfolio__projects">
-                <img class="portfolio1" src="./gambar/get.jpg" alt="portfolio">
-                <img class="portfolio1" src="./gambar/PN877S1.jpg" alt="portfolio" />
+                <img class="portfolio1" src="./gambar/softex.jpg" alt="portfolio" />
+                <img class="portfolio1" src="./gambar/jvc.png" alt="portfolio" />
+            </div>
+            <div class="portfolio__projects">
+                <h1 style="font-size: 50px;">Dokumentasi</h1>
+                <img class="portfolio1" src="./gambar/dok.png" alt="portfolio" />
+            </div>
+            <h3>Dark mode, Reasablity, Simplicity, Visual Management</h3>
+        </div>
+    </div>
+
+     <!-- NEXT ACTION -->
+     <div class="service" id="next-plan">
+        <div class="title">
+            <h2>NEXT ACTION</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                <h5>Self Development</h5>
+                <div class="pra">
+                    <p>Searah dengan Roadmap dept. SID 2023-2024,
+                        mematangkan & mempersiapkan i-Sparx untuk masspro dengan Framework yang stabil & Design yang modular</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                <h5>Career Plan</h5>
+                <div class="pra">
+                    <p>Terus belajar dan mendalami pekerjaan ini, agar kedepannya saya bisa memikul tanggung jawab yang lebih.</p>
+                </div>
             </div>
         </div>
     </div>
 
+
     <!-- Footer -->
     <footer>
         <p>Ahmad Zaky Yamani</p>
-        <p>Lorem Ipsum color jamet dummy text</p>
+        <p>PT. Citra Langgeng Sentosa</p>
         <div class="social">
             <a href="https://www.facebook.com/zaky.dah.1/"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/fhotokopi/"><i class="fab fa-instagram"></i></a>
